@@ -21,6 +21,7 @@ void speedGyro()
   int siny;
  
   mpu6050.update();
+  
   angleX = mpu6050.getAngleX();
   //Serial.print("angleX : ");      Serial.print(angleX);
   angleY = mpu6050.getAngleY();
